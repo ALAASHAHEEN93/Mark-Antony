@@ -1,0 +1,207 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-dark {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 25px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.mainSection {
+    width: 100%;
+    height: 900px;
+    text-align: left;
+}
+
+.mainSection h1 {
+    font-family: Montserrat-Semi;
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.mainSection p {
+    font-size: 20px;
+    display: block;
+    color: #ffffff;
+}
+
+.mainSection span {
+    font-size: 20px;
+    display: block;
+    color: #ffffff;
+    margin-bottom: 49px;
+}
+
+.mainSection a.btn-light {
+    background: white;
+    color: #d90746;
+    border-radius: 25px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.mainSection .container,
+.mainSection .container .row {
+    height: 900px;
+}
+
+.ContactMe {
+    font-size: 14px;
+    list-style-type: none;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.ContactMe a {
+    color: #ffffff;
+    width: 170px;
+    border: 1px solid white;
+    padding: 18px 50px;
+}
+
+.absoluteBg {
+    width: 100%;
+    height: 980px;
+    background-image: linear-gradient(to right, #7a39db, #6048ff);
+    background-image: url(../img/Background.png);
+    background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 75%, 0 90%);
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 0 90%);
+    position: absolute;
+}
+
+.MyStory {
+    width: 100%;
+    height: 980px;
+    background-image: url(../img/test.png);
+    background-image: linear-gradient(to right, #7a39db, #6048ff, url(../img/Section3.png));
+    background-size: cover;
+    -webkit-clip-path: polygon(100% 34%, 100% 78%, 0 100%, 0 65%);
+    clip-path: polygon(100% 0, 100% 78%, 0 100%, 0 22%);
+    position: absolute;
+}
+
+.MyStory span {
+    width: 226px;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.9;
+    letter-spacing: normal;
+    text-align: center;
+    color: red;
+}
+
+}
+
+img.logo {
+    padding-left: 215px;
+}
+
+a.Green-Button {
+    background: #a0d334;
+    color: white !important;
+    height: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding: 18px 49px;
+    width: 70px;
+    font-size: 14px;
+}
+
+a.Green-Button:hover {
+    opacity: 0.5;
+}
+.service {
+    width: 338px;
+    height: 175px;
+    box-shadow: 0 0 30px 0 rgba(172, 172, 172, 0.16);
+    background-color: #ffffff;
+    padding: 30px 35px;
+    margin: 30px 52px;
+}
+
+.service h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.service p{
+    font-size: 14px;
+    color: #6e6e6e;
+}
+
+img.imgservices {
+    margin-right: 20px;
+    width: 35px;
+    height: 32px;
+}
+
+/* Section */
+
+.Section h2 {
+    width: 168px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.9;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.ServicesDesc {
+    width: 365px;
+    height: 154px;
+    font-size: 14px;
+    color: #6e6e6e;
+    margin: 30px 0px;
+}
+
+.h3 {
+    width: 90px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.69;
+    text-align: left;
+    color: #4a4a4a;
+}
+
+.speechBulbble {
+    width: 338px;
+    height: 175px;
+    box-shadow: 0 0 30px 0 rgba(172, 172, 172, 0.16);
+    background-color: #ffffff;
+}
+
+.scrollNav {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+    img.logo {
+margin-left: 125px;
+}
+
+@media (max-width: 992px) {
+    img.logo {
+        margin-left: 0px;
+    }
+}
